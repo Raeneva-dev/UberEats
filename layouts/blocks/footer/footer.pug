@@ -1,0 +1,53 @@
+mixin footer()
+    footer.footer.page__footer
+        .page__content-limiter
+            a.header__link(href="#")
+                img(src="../layouts/blocks/footer/img/white-logo.svg").footer__img
+            .footer__spacer
+            .row.footer__row
+                .col-xs-7.col-sm-3
+                    .footer__select-box
+                        img(src="../layouts/blocks/footer/img/world.svg").footer__icon
+                        select(name="language").footer__select
+                            option(value="Русский") Русский
+                            option(value="English") English
+                    .footer__hash
+                        img(src="../layouts/blocks/footer/img/hash.png").footer__hash1
+                        img(src="../layouts/blocks/footer/img/UberEats.png").footer__hash2
+                    .footer__socials
+                        img(src="../layouts/blocks/footer/img/facebook.png").footer__social-icon
+                        img(src="../layouts/blocks/footer/img/twitter.png").footer__social-icon
+                        img(src="../layouts/blocks/footer/img/instagram.png").footer__social-icon
+                .col-md-1.hidden-xs.hidden-sm
+                .col-xs-12.col-sm-5.col-md-4
+                    ul.footer__menu
+                        a(href="#").footer__menu-link
+                            li.footer__menu-item Об UberEats
+                        a(href="#").footer__menu-link
+                            li.footer__menu-item Станьте партнёром по доставке
+                        a(href="#").footer__menu-link
+                            li.footer__menu-item Станьте парнёром-рестораном
+                .col-xs-12.col-sm-4
+                    ul.footer__menu
+                        a(href="#").footer__menu-link
+                            li.footer__menu-item Все города
+                        a(href="#").footer__menu-link
+                            li.footer__menu-item Цены
+                        a(href="#").footer__menu-link
+                            li.footer__menu-item Помощь
+                        a(href="#").footer__menu-link
+                            li.footer__menu-item FAQs
+            .footer__spacer
+            .footer__app-links-row
+                a(href="#").footer__menu-link
+                    img(src="../layouts/blocks/footer/img/appstore.png").footer__linkbutton
+                a(href="#").footer__menu-link
+                    img(src="../layouts/blocks/footer/img/googleplay.png").footer__linkbutton
+            .footer__spacer
+            .footer__last-row.row
+                a(href="#").footer__menu-link.col-xs-12.col-sm-4
+                    .footer__last-row-text-item © 2017 Uber Technologies Inc.
+                a(href="#").footer__menu-link.col-xs-12.col-sm-4
+                    .footer__last-row-text-item Обработка персональных данных
+                a(href="#").footer__menu-link.col-xs-12.col-sm-4
+                    .footer__last-row-text-item Пользовательское соглашение
