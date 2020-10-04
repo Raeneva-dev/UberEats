@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["require"],"mappings":";;;;;AAAAA,QAAQ,gBACRA,QAAQ","file":"pages.df8d07fb.js","sourceRoot":"..\\pages","sourcesContent":["require('./style.scss')\r\nrequire('flexboxgrid2')"]}

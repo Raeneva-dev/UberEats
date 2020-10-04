@@ -16,6 +16,7 @@
         display: flex;
         align-items: center;
         background-color: #3B3B3B;
+        border: none;
         border-radius: 3px;
     }
     &__select {
@@ -27,6 +28,15 @@
         margin-left: 16px;
         padding: 16px 0;
         width: 100%;
+        background-image: url("../layouts/blocks/footer/img/selectArrow.svg");
+        background-repeat: no-repeat;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-position: right;
+        &::-ms-expand {
+            display: none;
+        }
     }
     &__hash {
         margin-top: 32px;

@@ -518,6 +518,7 @@ template {
   display: flex;
   align-items: center;
   background-color: #3B3B3B;
+  border: none;
   border-radius: 3px;
 }
 .footer__select {
@@ -529,6 +530,15 @@ template {
   margin-left: 16px;
   padding: 16px 0;
   width: 100%;
+  background-image: url("/selectArrow.847b78bd.svg");
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-position: right;
+}
+.footer__select::-ms-expand {
+  display: none;
 }
 .footer__hash {
   margin-top: 32px;

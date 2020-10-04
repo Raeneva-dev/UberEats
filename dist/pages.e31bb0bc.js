@@ -195,7 +195,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"normalize.css":"../node_modules/normalize.css/normalize.css","_css_loader":"../../../Users/selin/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/flexboxgrid2/flexboxgrid2.css":[function(require,module,exports) {
+},{"normalize.css":"../node_modules/normalize.css/normalize.css","./..\\layouts\\blocks\\footer\\img\\selectArrow.svg":[["selectArrow.847b78bd.svg","../layouts/blocks/footer/img/selectArrow.svg"],"../layouts/blocks/footer/img/selectArrow.svg"],"_css_loader":"../../../Users/selin/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/flexboxgrid2/flexboxgrid2.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -233,7 +233,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57046" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64608" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
