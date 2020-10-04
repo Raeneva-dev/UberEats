@@ -1,0 +1,29 @@
+.page {
+    font-family: 'Roboto', sans-serif;
+    &__header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    &__content-limiter {
+        max-width: 1200px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .page {
+        &__content-limiter {
+            padding-left: 55px;
+            padding-right: 55px;
+        }
+    }
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}

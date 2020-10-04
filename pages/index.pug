@@ -1,7 +1,10 @@
 extends ../layouts/main
 
+include ../layouts/mixins
+
 block title
     title UberEats - Stores
 
 block content
-    body.page
+    +page()
+        +header()
