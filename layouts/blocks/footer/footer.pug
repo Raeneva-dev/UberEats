@@ -12,12 +12,16 @@ mixin footer()
                             option(value="Русский") Русский
                             option(value="English") English
                     .footer__hash
-                        img(src="../layouts/blocks/footer/img/hash.png").footer__hash1
-                        img(src="../layouts/blocks/footer/img/UberEats.png").footer__hash2
+                        a(href="#").footer__menu-link
+                            img(src="../layouts/blocks/footer/img/hash.png").footer__hash1
+                            img(src="../layouts/blocks/footer/img/UberEats.png").footer__hash2
                     .footer__socials
-                        img(src="../layouts/blocks/footer/img/facebook.png").footer__social-icon
-                        img(src="../layouts/blocks/footer/img/twitter.png").footer__social-icon
-                        img(src="../layouts/blocks/footer/img/instagram.png").footer__social-icon
+                        a(href="#").footer__menu-link
+                            img(src="../layouts/blocks/footer/img/facebook.png").footer__social-icon
+                        a(href="#").footer__menu-link
+                            img(src="../layouts/blocks/footer/img/twitter.png").footer__social-icon
+                        a(href="#").footer__menu-link
+                            img(src="../layouts/blocks/footer/img/instagram.png").footer__social-icon
                 .col-md-1.hidden-xs.hidden-sm
                 .col-xs-12.col-sm-5.col-md-4
                     ul.footer__menu

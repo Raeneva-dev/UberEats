@@ -16,7 +16,7 @@
         display: flex;
         align-items: center;
         background-color: #3B3B3B;
-        border-radius: 2px;
+        border-radius: 3px;
     }
     &__select {
         background-color: #3B3B3B;
@@ -44,18 +44,28 @@
     }
     &__social-icon {
         width: 24px;
+        margin-right: 10px;
     }
     &__menu {
         margin: 0;
         padding-left: 0;
         &-link {
             text-decoration: none;
+            &:hover {
+                .footer__menu-item {
+                    color: #b5b5b5;
+                }
+                .footer__last-row-text-item {
+                    color: #b5b5b5;
+                }
+            }
         }
         &-item {
             list-style-type: none;
             padding-bottom: 23px;
             font-size: 13px;
             color: #FFFFFF;
+            transition: color 0.3s ease-in;
         }
     }
     &__app-links-row {
@@ -74,6 +84,7 @@
         color: #FFFFFF;
         font-size: 11px;
         padding-bottom: 24px;
+        transition: color 0.3s ease-in;
     }
 }
 

@@ -372,11 +372,11 @@ template {
   padding: 14px 20px;
   background-color: #FFFFFF;
   border: 1px solid #E0E0E0;
-  border-radius: 2px;
+  border-radius: 3px;
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
-  transition: 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
 }
 .header__button:hover {
   background-color: rgba(117, 117, 117, 0.04);
@@ -423,7 +423,20 @@ template {
   padding-top: 56px;
   padding-bottom: 16px;
 }
+.page__startButton {
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  width: 80px;
+  height: 80px;
+}
 
+@media screen and (max-width: 575px) {
+  .page__startButton {
+    width: 64px;
+    height: 64px;
+  }
+}
 @media screen and (min-width: 992px) {
   .page__content-limiter {
     padding-left: 55px;
@@ -453,7 +466,7 @@ template {
 .catalog__card {
   margin-bottom: 16px;
   box-sizing: content-box;
-  transition: 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
   cursor: pointer;
 }
 .catalog__card:hover {
@@ -505,7 +518,7 @@ template {
   display: flex;
   align-items: center;
   background-color: #3B3B3B;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 .footer__select {
   background-color: #3B3B3B;
@@ -533,6 +546,7 @@ template {
 }
 .footer__social-icon {
   width: 24px;
+  margin-right: 10px;
 }
 .footer__menu {
   margin: 0;
@@ -541,11 +555,18 @@ template {
 .footer__menu-link {
   text-decoration: none;
 }
+.footer__menu-link:hover .footer__menu-item {
+  color: #b5b5b5;
+}
+.footer__menu-link:hover .footer__last-row-text-item {
+  color: #b5b5b5;
+}
 .footer__menu-item {
   list-style-type: none;
   padding-bottom: 23px;
   font-size: 13px;
   color: #FFFFFF;
+  transition: color 0.3s ease-in;
 }
 .footer__app-links-row {
   display: flex;
@@ -563,13 +584,24 @@ template {
   color: #FFFFFF;
   font-size: 11px;
   padding-bottom: 24px;
-  box-sizing: border-box;
+  transition: color 0.3s ease-in;
 }
 
 @media screen and (max-width: 575px) {
   .footer__linkbutton {
     height: 36px;
   }
+}
+.startButton {
+  background-color: #59BD5A;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in;
+}
+.startButton:hover {
+  background-color: #4ead4f;
 }
 .container {
   box-sizing: border-box;

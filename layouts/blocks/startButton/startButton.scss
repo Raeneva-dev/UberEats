@@ -1,0 +1,11 @@
+.startButton {
+    background-color: #59BD5A;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in;
+    &:hover {
+        background-color: #4ead4f;
+    }
+}

@@ -26,6 +26,20 @@
         padding-top: 56px;
         padding-bottom: 16px;
     }
+    &__startButton {
+        position: fixed;
+        bottom: 24px;
+        right: 16px;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .page__startButton {
+        width: 64px;
+        height: 64px;
+    }
 }
 
 @media screen and (min-width: 992px) {
