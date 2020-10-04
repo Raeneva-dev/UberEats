@@ -12,6 +12,14 @@
         padding-left: 8px;
         padding-right: 8px;
     }
+    &__first-block {
+        margin-top: 116px;
+        margin-bottom: 40px;
+    }
+    &__search {
+        box-sizing: border-box;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 992px) {

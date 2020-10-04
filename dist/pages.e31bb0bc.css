@@ -375,6 +375,7 @@ template {
   border-radius: 2px;
   font-size: 13px;
   font-weight: 500;
+  cursor: pointer;
 }
 .header__button:hover {
   background-color: rgba(117, 117, 117, 0.04);
@@ -407,6 +408,14 @@ template {
   padding-left: 8px;
   padding-right: 8px;
 }
+.page__first-block {
+  margin-top: 116px;
+  margin-bottom: 40px;
+}
+.page__search {
+  box-sizing: border-box;
+  width: 100%;
+}
 
 @media screen and (min-width: 992px) {
   .page__content-limiter {
@@ -417,6 +426,16 @@ template {
 :active, :hover, :focus {
   outline: 0;
   outline-offset: 0;
+}
+
+.search {
+  border: none;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+  line-height: 24px;
+  color: #1D1D1D;
+}
+.search::placeholder {
+  color: rgba(98, 98, 98, 0.5);
 }
 
 /*# sourceMappingURL=/pages.e31bb0bc.css.map */
