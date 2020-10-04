@@ -1,6 +1,9 @@
 @import "normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+// @import "flexboxgrid2";
 
 @import "../layouts/blocks/header/header.scss";
 @import "../layouts/blocks/page/page.scss";
 @import "../layouts/blocks/search/search.scss";
+@import "../layouts/blocks/catalog/catalog.scss";
+@import "../layouts/blocks/card/card.scss";

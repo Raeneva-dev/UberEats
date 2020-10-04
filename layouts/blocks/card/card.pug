@@ -1,0 +1,8 @@
+mixin card(img, name, descr, time)
+    .card.col-xs-12.col-sm-6.col-lg-4
+        .catalog__card
+            img(src=img).card__img
+            .card__description
+                .card__title= name
+                .card__descr= descr
+                .card__time= time

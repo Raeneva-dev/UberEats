@@ -1,0 +1,16 @@
+.catalog {
+    &__title {
+        font-size: 22px;
+        font-weight: 400;
+        color: #1D1D1D;
+    }
+    &__card {
+        margin-bottom: 16px;
+        box-sizing: content-box;
+        transition: 0.3s ease-in;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(117, 117, 117, .04);
+        }
+    }
+}
